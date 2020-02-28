@@ -29,6 +29,11 @@ export default {
       })
     })
   },
+  data () {
+      return {
+          messages : []
+      }
+  },  
   watch: {
     messages: 'scrollToBottom'
   },
